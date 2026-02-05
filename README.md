@@ -143,3 +143,80 @@ nest g pipe common/pipes/validation
 # Decorator
 nest g decorator common/decorators/current-user
 ```
+
+## Branch Naming Convention
+
+To keep our Git history clean and easy to understand, please create new branches using the following rules.
+
+### 1. New Features
+
+Use the `feature/` prefix followed by a short, descriptive name.
+
+**Format**
+
+```
+feature/<feature-name>
+```
+
+**Example**
+
+```
+feature/user-management
+```
+
+---
+
+### 2. Bug Fixes
+
+Use the `bug/` prefix with a brief description of the issue being fixed.
+
+**Format**
+
+```
+bug/<bug-description>
+```
+
+**Example**
+
+```
+bug/fix-undefined-issue
+```
+
+---
+
+### 3. Jira Tasks
+
+For work tied directly to a Jira ticket, use the `task/` prefix followed by the Jira ID.
+
+**Format**
+
+```
+task/<JIRA-ID>
+```
+
+**Example**
+
+```
+task/NB-2345
+```
+
+---
+
+### 4. Clean Code / Refactoring (Recommended)
+
+For non-functional changes like refactoring, formatting, or improving readability, use the `refactor/` prefix.
+
+**Format**
+
+```
+refactor/<scope-or-description>
+```
+
+**Examples**
+
+```
+refactor/auth-service-cleanup
+refactor/remove-duplicate-logic
+```
+
+---
