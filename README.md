@@ -21,6 +21,18 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+
+## 📑 Table of Contents
+
+- 📌 [Description](#description)
+- ⚙️ [Project Setup](#project-setup)
+- 🌿 [Branch Naming Convention](#branch-naming-convention)
+- 🚀 [Compile and Run the Project](#compile-and-run-the-project)
+- 🧪 [Run Tests](#run-tests)
+- 🛠️ [NestJS CLI Commands](#nestjs-cli-commands)
+
+
+
 ## Description
 
 This project is a backend application built using **NestJS**.  
